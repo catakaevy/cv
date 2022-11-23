@@ -1,0 +1,23 @@
+/* Tag sectors */
+h1 {
+    color: red; 
+    font-size: 100px;
+}
+/* How to paint red for all img src in html */
+img:hover {
+    background-color: gold;
+}
+ /* Class sectors */
+ .bacon {
+    background-color: green;
+ }
+ .broccoli {
+    background-color: red;
+ }
+ .circular {
+    border-radius: 100%;
+ }
+ /* How to use id sectors */
+ #heading {
+    color: blue;
+ }

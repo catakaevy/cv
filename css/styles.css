@@ -1,0 +1,24 @@
+/* Adopting the external css to a whole html files in websites */
+/* css grammar
+selector {property: value}
+selector: whom do you want to change in html's elements
+property: what do you want to do about it?
+value: How do you want to change about it?
+At the same time, you can define multiple rules for a same selector
+*/
+body {
+    background-color: #FFFFD2; 
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+h1 {
+    color: #66BFBF;
+}
+h3 {
+    color: #66BFBF;
+}
