@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <!-- description is what you explain about this website -->
+    <meta description="This website is only for practice">
+    <!-- 
+        viewport: the specific area end-users can see the web contents 
+        content↓
+        "width=device-width": specific nums for px or device-width means 100vw=100%. Therefore, it can be flexible for each different devices.
+        initial-scale: num for display magnification
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- you can specify the web icon here for the web tabs with icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header" class="wrapper">
+        <!-- Setting up for the upper-left logo in the header -->
+        <h1 class="site-title"><a href="level1.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+        <!-- nav: navigation menu when you click, end-users can reach the selected elements which are illustrated with this tag -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#bicycle">Bicycle</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main: main element in body element to show the content -->
+    <main>
+        <div id="main_visual">
+            <img src="img/mainvisual.jpg" alt="text,text,text,">
+        </div>
+        <!--section:  useful when general section needed. this should be with headings -->
+        <section id="about" class="wrapper">
+            <h2 class="section-title">About</h2>
+            <hr>
+            <div class="content">
+                <img src="img/about.jpg" alt="text,text,text,">
+                <div class="text">
+                    <h3 class="content-title">Cataka's Practice</h3>
+                    <p>
+                        text, text, text, text, <br>
+                        text, text, text, text, <br>
+                        text, text, text, text, <br>
+                        text, text, text, text, 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="bicycle" class="wrapper">
+            <h2 class="section-title">Bicycle</h2>
+            <hr>
+            <ul>
+                <li>
+                    <img src="img/bicycle1.jpg" alt="text,text,text,">
+                    <h3 class="content-title">title,title,title</h3>
+                    <p>text,text,text,</p>
+                </li>
+                <li>
+                    <img src="img/bicycle2.jpg" alt="">
+                    <h3 class="content-title">title,title,title</h3>
+                    <p>text,text,text,</p>
+                </li>
+                <li>
+                    <img src="img/bicycle3.jpg" alt="">
+                    <h3 class="content-title">title,title,title</h3>
+                    <p>text,text,text,</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer">
+        <!-- &copy; copyright icon adding here -->
+        <p>&copy; 2022 Profile</p>
+    </footer>
+</body>
+</html>
