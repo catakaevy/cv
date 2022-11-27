@@ -1,5 +1,6 @@
+Web-Dev-Resources.pdf
 .DS_Store
 __MACOSX/*
-.DS_Store/
-.DS_Store/*
+*/.DS_Store/
+*/.DS_Store/*
 __MACOSX

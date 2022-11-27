@@ -1,0 +1,181 @@
+/* what is box model in css */
+body {
+    color: #40514e;
+    margin: 0;
+    /* centerlize all elements without width setup */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem; /* 1rem (root em) = 1em = 100% = 16px, thus 90px should be 16px/90px = 562.5% */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+    line-height: 2;
+    /* Automatic centerlized postion with text-align center
+    width: 10%;
+    margin: 0 auto 0 auto; */
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+.top-container {
+    background-color: #ADE792;
+    position: relative;
+    padding-top: 100px;
+    /* Lesson1 how to set up the postion by specifying border & padding & margin
+    height: 200px;
+    width: 200px; */
+    /* border: solid 10px;
+    padding: 20px; */
+}
+
+.middle-container {
+    margin: 100px auto 100px auto;
+    /* height: 200px;
+    width: 200px;
+    background-color: red; */
+    /* Lesson1 border: solid 20px;
+    a bit of calculation to set on the edge of top-container
+    margin-left: 260px; */
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    position: relative;
+    padding: 50px 0 20px;
+    /* height: 200px;
+    width: 200px;
+    background-color: blue; */
+    /* Lesson1 border: solid 10px;
+    margin-left: 500px; */
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile_photo {
+    margin-top: 20px;
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    /* how to centerlize contents with width element */
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.chilli-img {
+    margin-left: 30px;
+    width: 30%;
+    float: right;
+}
+
+.code-img {
+    margin-right: 30px;
+    width: 30%;
+    float: left;
+}
+
+.contact-me {
+    margin-bottom: 100px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+/* created in btn auto generator  */
+.btn {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+background: #3cb0fd;
+background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+text-decoration: none;
+}
+
+.text-above-btn {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright-description {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+/* how to deny the float as well
+.clear-check {
+    clear: both;
+} */
